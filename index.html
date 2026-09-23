@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1F3550">
+  <meta name="description" content="Presentasi interaktif pembelajaran Kanji 鉄 (Tetsu) oleh Faiz Syihab, NIM 125241046, Kelas A.">
+  <title>Kanji 鉄 (TETSU) — Faiz Syihab</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=20260923-01">
+  <script src="app.js?v=20260923-01" defer></script>
+</head>
+<body>
+  <!-- SVG Symbols Library -->
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <symbol id="arrow-right" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+      <symbol id="arrow-left" viewBox="0 0 24 24"><path d="M20 12H5m6-6-6 6 6 6"/></symbol>
+      <symbol id="expand" viewBox="0 0 24 24"><path d="M8 4H4v4m12-4h4v4M4 16v4h4m12-4v4h-4"/></symbol>
+      <symbol id="play" viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3" fill="currentColor"/></symbol>
+      <symbol id="replay" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></symbol>
+      <symbol id="step-next" viewBox="0 0 24 24"><polygon points="5 4 15 12 5 20 5 4" fill="currentColor"/><line x1="19" y1="5" x2="19" y2="19" stroke="currentColor" stroke-width="2.5"/></symbol>
+      <symbol id="step-prev" viewBox="0 0 24 24"><polygon points="19 20 9 12 19 4 19 20" fill="currentColor"/><line x1="5" y1="5" x2="5" y2="19" stroke="currentColor" stroke-width="2.5"/></symbol>
+      <symbol id="book" viewBox="0 0 24 24"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10"/></symbol>
+      <symbol id="sparkle" viewBox="0 0 24 24"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#slide-1">Langsung ke slide</a>
+
+  <div class="app">
+    <!-- Header -->
+    <header class="app-header">
+      <a class="brand" href="#slide-1" aria-label="Kanji 鉄, kembali ke sampul">
+        <span class="brand-mark" lang="ja">鉄</span>
+        <span class="brand-text">Kanji Study <strong>鉄</strong></span>
+      </a>
+      <div class="header-actions">
+        <button class="icon-button" id="fullscreen-button" aria-label="Masuk layar penuh" title="Layar penuh (F)">
+          <svg><use href="#expand"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Stage -->
+    <main class="stage" aria-label="Presentasi materi Kanji 鉄, 7 slide">
+      <div class="slides">
+
+        <!-- ==================== SLIDE 1: COVER ==================== -->
+        <section class="slide cover active" id="slide-1" aria-labelledby="cover-title" tabindex="-1" data-title="Pembuka">
+          <div class="cover-left">
+            <div class="cover-label">
+              <span lang="ja" class="label-badge">漢字の学習</span>
+              <span class="label-sub">Presentasi Materi Kanji</span>
+            </div>
+            
+            <div class="hero-kanji-wrap">
+              <div class="kanji-display-block">
+                <span class="kanji-main" lang="ja">鉄</span>
+                <span class="kanji-ruby-tag" lang="ja">てつ</span>
+              </div>
+              <div class="kanji-meta-brief">
+                <span class="meta-tag">Logam / Besi</span>
+                <span class="meta-tag">JLPT N3 / Joyo Grade 3</span>
+              </div>
+            </div>
+
+            <div class="presenter">
+              <div class="presenter-avatar">FS</div>
+              <div class="presenter-info">
+                <strong>Faiz Syihab</strong>
+                <div class="presenter-sub">
+                  <span>NIM 125241046</span>
+                  <span class="presenter-divider" aria-hidden="true">•</span>
+                  <span class="presenter-class">Kelas A</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cover-right">
+            <div class="vertical-proverb" lang="ja" title="Peribahasa Jepang: Tempalah besi selagi panas">
+              <span>鉄は熱いうちに打て。</span>
+            </div>
+            <div class="proverb-meaning">
+              <em>"Tempalah besi selagi masih panas."</em>
+              <p>Makna: Latihlah dan belajarlah selagi muda / ada kesempatan berharga.</p>
+            </div>
+            <div class="iron-disc-wrap" aria-hidden="true">
+              <div class="iron-disc">
+                <span class="disc-kanji" lang="ja">鉄</span>
+              </div>
+            </div>
+            <button class="start-button" data-go="1">
+              <span>Mulai Belajar</span>
+              <svg><use href="#arrow-right"/></svg>
+            </button>
+          </div>
+          <div class="slide-bottom page-only"><span>01 / 07</span></div>
+        </section>
+
+        <!-- ==================== SLIDE 2: BUSHU & YOMIKATA ==================== -->
+        <section class="slide bushu-yomi" id="slide-2" aria-labelledby="bushu-title" tabindex="-1" data-title="Bushu & Yomikata" hidden inert>
+          <div class="section-heading">
+            <div>
+              <span class="section-kicker">Dasar Kanji</span>
+              <h2 class="section-title" id="bushu-title">Bushu & Yomikata</h2>
+            </div>
+            <span class="heading-jp" lang="ja" aria-hidden="true">部首と読み方</span>
+          </div>
+
+          <div class="two-columns">
+            <!-- Panel 1: Bushu -->
+            <article class="info-card bushu-card">
+              <div class="card-header-badge">
+                <span class="badge-label">Radikal Kanji</span>
+                <span class="badge-code" lang="ja">部首 #167</span>
+              </div>
+              <div class="bushu-hero">
+                <div class="bushu-char-wrap">
+                  <span class="bushu-char" lang="ja">釒</span>
+                  <span class="bushu-alt" lang="ja">(金)</span>
+                </div>
+                <div class="bushu-desc">
+                  <h3 lang="ja">かねへん (Kanehen)</h3>
+                  <p class="bushu-role">Posisi di sebelah kiri (<span lang="ja">偏・へん</span>)</p>
+                </div>
+              </div>
+              <div class="bushu-meaning-box">
+                <h4>Makna & Filosofi Radikal:</h4>
+                <p>Melambangkan <strong>logam, emas, besi, tambang, atau perkakas tajam</strong>. Semua kanji dengan bushu ini selalu berhubungan dengan logam (misal: <span lang="ja">銀</span> perak, <span lang="ja">銅</span> tembaga, <span lang="ja">針</span> jarum).</p>
+              </div>
+              <div class="bushu-breakdown">
+                <span class="breakdown-tag" lang="ja">金 ➔ 釒</span>
+                <span>Bentuk <strong lang="ja">金</strong> disederhanakan saat menempati sisi kiri kanji.</span>
+              </div>
+            </article>
+
+            <!-- Panel 2: Yomikata -->
+            <article class="info-card yomi-card">
+              <div class="card-header-badge">
+                <span class="badge-label">Cara Membaca</span>
+                <span class="badge-code" lang="ja">読み方</span>
+              </div>
+
+              <!-- Onyomi -->
+              <div class="yomi-group onyomi-group">
+                <div class="yomi-type-badge">
+                  <span class="pill-onyomi">音読み (On-yomi)</span>
+                  <span class="yomi-origin">Bunyi serapan Tionghoa</span>
+                </div>
+                <div class="yomi-main-row">
+                  <strong class="yomi-reading" lang="ja">テツ</strong>
+                  <span class="yomi-romaji">(TETSU)</span>
+                </div>
+                <p class="yomi-explanation">Digunakan pada sebagian besar kata majemuk (<em>jukugo</em>), seperti <span lang="ja">鉄道</span> (tetsudou) dan <span lang="ja">地下鉄</span> (chikatetsu).</p>
+              </div>
+
+              <!-- Kunyomi -->
+              <div class="yomi-group kunyomi-group">
+                <div class="yomi-type-badge">
+                  <span class="pill-kunyomi">訓読み (Kun-yomi)</span>
+                  <span class="yomi-origin">Bunyi asli bahasa Jepang</span>
+                </div>
+                <div class="yomi-main-row">
+                  <strong class="yomi-reading" lang="ja">くろがね</strong>
+                  <span class="yomi-romaji">(kurogane)</span>
+                </div>
+                <p class="yomi-explanation">Secara etimologi puitis berarti <em>"besi hitam"</em> (<span lang="ja">黒金</span>) untuk membedakannya dari perak (<span lang="ja">白金・しろがね</span>) dan tembaga (<span lang="ja">赤金・あかがね</span>).</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="slide-bottom">
+            <span>Bushu: かねへん · On: テツ · Kun: くろがね</span>
+            <span>02 / 07</span>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 3: KAKUSUU & ANIMASI ==================== -->
+        <section class="slide kakusuu-slide" id="slide-3" aria-labelledby="kakusuu-title" tabindex="-1" data-title="Kakusuu & Animasi" hidden inert>
+          <div class="section-heading">
+            <div>
+              <span class="section-kicker">Struktur & Penulisan</span>
+              <h2 class="section-title" id="kakusuu-title">Kakusuu & Animasi Menulis</h2>
+            </div>
+            <span class="heading-jp" lang="ja" aria-hidden="true">画数と書き順</span>
+          </div>
+
+          <div class="kakusuu-container">
+            <!-- Left: Stroke Order Animator Canvas -->
+            <div class="kanji-animator-box">
+              <div class="canvas-header">
+                <span class="canvas-tag">Genkouyoushi Grid</span>
+                <span class="stroke-status-badge" id="stroke-status">Goresan: 13 / 13</span>
+              </div>
+              
+              <div class="grid-canvas" id="kanji-canvas" aria-label="Kanji 鉄 dengan animasi coretan menulis">
+                <!-- Guide lines -->
+                <svg class="grid-lines" viewBox="0 0 109 109">
+                  <line x1="0" y1="54.5" x2="109" y2="54.5" stroke="#E2E7EE" stroke-width="0.75" stroke-dasharray="2,2"/>
+                  <line x1="54.5" y1="0" x2="54.5" y2="109" stroke="#E2E7EE" stroke-width="0.75" stroke-dasharray="2,2"/>
+                  <circle cx="54.5" cy="54.5" r="48" fill="none" stroke="#EDF2F7" stroke-width="0.75"/>
+                </svg>
+
+                <!-- Background Ghost Kanji (Static Light Grey) -->
+                <svg class="ghost-kanji" viewBox="0 0 109 109">
+                  <g style="fill:none;stroke:#D6DFE8;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;">
+                    <path d="M30.75,13.99c0,0.85,0.05,1.53-0.15,2.55C29.52,21.87,19.27,39.62,10.5,47.5"/>
+                    <path d="M32.52,20.96c4.15,2.03,9.46,7.42,11.48,12.54"/>
+                    <path d="M20.5,41c1.19,0,2.31,0.1,3.49-0.05c3.72-0.48,8.34-1.01,12.38-1.68c1.19-0.2,2.17-0.26,3.38-0.26"/>
+                    <path d="M12.84,56.31c1.29,0.56,3.27,0.44,4.68,0.3c5.64-0.54,13.19-1.57,20.11-2.54c0.77-0.11,2.49-0.13,3.65,0.15"/>
+                    <path d="M28.7,42.19c0.99,0.99,1.49,2.31,1.49,3.64c0,4.35,0.06,29.17,0.06,36.98"/>
+                    <path d="M16.89,66.51c2.9,4.48,4.31,9.32,4.9,11.94"/>
+                    <path d="M41.54,62.3c0.23,0.71,0.21,1.58-0.24,2.6c-1,2.26-1.8,3.86-4.38,8.38"/>
+                    <path d="M14.5,88.5c1,0.62,2.25,0.88,4,0.25c1.27-0.45,10.75-5,23.75-11"/>
+                    <path d="M55.75,23.88c0.25,0.88,0.37,1.79,0.19,2.63c-1.44,6.62-4.05,14.79-8.94,22.94"/>
+                    <path d="M55.69,39.18c0.81,0,3.18-0.12,3.81-0.18c4.45-0.42,15.36-2.64,20.64-3.41c1.62-0.24,3.61-0.47,4.86-0.34"/>
+                    <path d="M46.75,59c2.88,0.25,4.93,0.11,7.52-0.25c7.62-1.06,22.86-2.88,30.62-3.58c2.19-0.2,4.87-0.3,7.12,0.08"/>
+                    <path d="M66.23,13.25c0.89,0.89,1.27,2.13,1.32,3.39C70,76.25,59.5,82.5,42.75,94.5"/>
+                    <path d="M67.23,59.09c5.93,9.76,14.04,21.24,20.52,28.16c1.81,1.93,4.12,4.25,6.99,5.75"/>
+                  </g>
+                </svg>
+
+                <!-- Active Animated Kanji Strokes -->
+                <svg class="active-kanji" id="animated-svg" viewBox="0 0 109 109">
+                  <g id="stroke-paths" style="fill:none;stroke:#1E2530;stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round;">
+                    <path id="s1" data-stroke="1" data-label="1. 払い (kanehen)" d="M30.75,13.99c0,0.85,0.05,1.53-0.15,2.55C29.52,21.87,19.27,39.62,10.5,47.5"/>
+                    <path id="s2" data-stroke="2" data-label="2. 点 (kanehen)" d="M32.52,20.96c4.15,2.03,9.46,7.42,11.48,12.54"/>
+                    <path id="s3" data-stroke="3" data-label="3. 横 (kanehen)" d="M20.5,41c1.19,0,2.31,0.1,3.49-0.05c3.72-0.48,8.34-1.01,12.38-1.68c1.19-0.2,2.17-0.26,3.38-0.26"/>
+                    <path id="s4" data-stroke="4" data-label="4. 横 (kanehen)" d="M12.84,56.31c1.29,0.56,3.27,0.44,4.68,0.3c5.64-0.54,13.19-1.57,20.11-2.54c0.77-0.11,2.49-0.13,3.65,0.15"/>
+                    <path id="s5" data-stroke="5" data-label="5. 縦 (kanehen)" d="M28.7,42.19c0.99,0.99,1.49,2.31,1.49,3.64c0,4.35,0.06,29.17,0.06,36.98"/>
+                    <path id="s6" data-stroke="6" data-label="6. 点 (kanehen)" d="M16.89,66.51c2.9,4.48,4.31,9.32,4.9,11.94"/>
+                    <path id="s7" data-stroke="7" data-label="7. 払い (kanehen)" d="M41.54,62.3c0.23,0.71,0.21,1.58-0.24,2.6c-1,2.26-1.8,3.86-4.38,8.38"/>
+                    <path id="s8" data-stroke="8" data-label="8. 跳ね/払い (kanehen)" d="M14.5,88.5c1,0.62,2.25,0.88,4,0.25c1.27-0.45,10.75-5,23.75-11"/>
+                    <path id="s9" data-stroke="9" data-label="9. 払い (bagian kanan)" d="M55.75,23.88c0.25,0.88,0.37,1.79,0.19,2.63c-1.44,6.62-4.05,14.79-8.94,22.94"/>
+                    <path id="s10" data-stroke="10" data-label="10. 横 (bagian kanan)" d="M55.69,39.18c0.81,0,3.18-0.12,3.81-0.18c4.45-0.42,15.36-2.64,20.64-3.41c1.62-0.24,3.61-0.47,4.86-0.34"/>
+                    <path id="s11" data-stroke="11" data-label="11. 横 (bagian kanan)" d="M46.75,59c2.88,0.25,4.93,0.11,7.52-0.25c7.62-1.06,22.86-2.88,30.62-3.58c2.19-0.2,4.87-0.3,7.12,0.08"/>
+                    <path id="s12" data-stroke="12" data-label="12. 左払い (bagian kanan)" d="M66.23,13.25c0.89,0.89,1.27,2.13,1.32,3.39C70,76.25,59.5,82.5,42.75,94.5"/>
+                    <path id="s13" data-stroke="13" data-label="13. 右払い (bagian kanan)" d="M67.23,59.09c5.93,9.76,14.04,21.24,20.52,28.16c1.81,1.93,4.12,4.25,6.99,5.75"/>
+                  </g>
+                  <!-- Numbers overlay -->
+                  <g id="stroke-numbers" style="font-size:7.5px;font-family:sans-serif;fill:#3A608F;font-weight:bold;opacity:0.85;">
+                    <text x="21" y="16">1</text>
+                    <text x="35" y="21">2</text>
+                    <text x="23" y="38">3</text>
+                    <text x="7" y="56">4</text>
+                    <text x="21" y="49">5</text>
+                    <text x="11" y="67">6</text>
+                    <text x="33" y="65">7</text>
+                    <text x="7" y="91">8</text>
+                    <text x="46" y="23">9</text>
+                    <text x="56" y="35">10</text>
+                    <text x="47" y="56">11</text>
+                    <text x="54" y="14">12</text>
+                    <text x="73" y="66">13</text>
+                  </g>
+                </svg>
+              </div>
+
+              <!-- Controls -->
+              <div class="animator-controls">
+                <button class="btn-ctrl" id="btn-play" aria-label="Putar animasi coretan">
+                  <svg><use href="#play"/></svg>
+                  <span>Putar</span>
+                </button>
+                <button class="btn-ctrl" id="btn-replay" aria-label="Ulangi animasi dari awal">
+                  <svg><use href="#replay"/></svg>
+                  <span>Ulangi</span>
+                </button>
+                <div class="step-buttons">
+                  <button class="btn-ctrl btn-icon" id="btn-prev-stroke" aria-label="Goresan sebelumnya" title="Goresan sebelumnya">
+                    <svg><use href="#step-prev"/></svg>
+                  </button>
+                  <button class="btn-ctrl btn-icon" id="btn-next-stroke" aria-label="Goresan berikutnya" title="Goresan berikutnya">
+                    <svg><use href="#step-next"/></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Kakusuu Details & Breakdown -->
+            <div class="kakusuu-info-panel">
+              <div class="kakusuu-hero-metric">
+                <div class="metric-number">
+                  <span class="number-val">13</span>
+                  <span class="number-kanji" lang="ja">画</span>
+                </div>
+                <div class="metric-text">
+                  <h3>Total 13 Goresan (Kakusuu)</h3>
+                  <p>Kanji 鉄 memiliki total 13 coretan yang terbagi rapi menjadi 2 area struktur.</p>
+                </div>
+              </div>
+
+              <div class="stroke-division-grid">
+                <div class="division-card">
+                  <div class="division-badge">8 Goresan Kiri (1–8)</div>
+                  <h4 lang="ja">釒（かねへん）</h4>
+                  <p>Bagian radikal: 1 (払い), 2 (点), 3-4 (横), 5 (縦), 6 (点), 7 (払い), 8 (跳ね).</p>
+                </div>
+                <div class="division-card">
+                  <div class="division-badge">5 Goresan Kanan (9–13)</div>
+                  <h4 lang="ja">失（つくりの部分）</h4>
+                  <p>Bagian kanan (tsukuri): 9 (払い), 10-11 (横), 12 (左払い), 13 (右払い).</p>
+                </div>
+              </div>
+
+              <div class="stroke-current-box" id="current-stroke-detail">
+                <span class="detail-kicker">Coretan Aktif:</span>
+                <p id="stroke-detail-text">Klik tombol <strong>Putar</strong> atau tombol langkah untuk mengamati urutan goresan.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide-bottom">
+            <span>Total: 13 画 · Kiri: 8 画 · Kanan: 5 画</span>
+            <span>03 / 07</span>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 4: OBOEKATA ==================== -->
+        <section class="slide oboekata-slide" id="slide-4" aria-labelledby="oboekata-title" tabindex="-1" data-title="Oboekata" hidden inert>
+          <div class="section-heading">
+            <div>
+              <span class="section-kicker">Metode Hafalan</span>
+              <h2 class="section-title" id="oboekata-title">Oboekata (Cara Mengingat)</h2>
+            </div>
+            <span class="heading-jp" lang="ja" aria-hidden="true">覚え方</span>
+          </div>
+
+          <div class="oboekata-container">
+            <!-- Mnemonic Formula Header -->
+            <div class="mnemonic-banner">
+              <div class="formula-element">
+                <span class="element-kanji" lang="ja">金</span>
+                <span class="element-label">Kin (Logam / Emas)</span>
+              </div>
+              <span class="math-operator">+</span>
+              <div class="formula-element">
+                <span class="element-kanji" lang="ja">矢</span>
+                <span class="element-label">Ya (Panah)</span>
+              </div>
+              <span class="math-operator">=</span>
+              <div class="formula-result">
+                <span class="element-kanji result" lang="ja">鉄</span>
+                <span class="element-label">Tetsu (Besi)</span>
+              </div>
+            </div>
+
+            <!-- Two Cards: Kin and Ya -->
+            <div class="two-columns oboekata-cards">
+              <!-- Card 1: KIN -->
+              <article class="element-card card-kin">
+                <div class="element-card-top">
+                  <span class="element-big" lang="ja">金</span>
+                  <div class="element-card-meta">
+                    <span class="element-title-tag">Komponen Kiri</span>
+                    <h3 lang="ja">きん · かね</h3>
+                    <p class="element-meaning">Makna: <strong>Logam / Emas / Uang</strong></p>
+                  </div>
+                </div>
+                <div class="element-card-body">
+                  <p>Besi (<span lang="ja">鉄</span>) merupakan jenis <strong>logam</strong> yang sangat vital dalam peradaban manusia. Karakter <strong lang="ja">金</strong> menjadi pondasi utama radikalnya (<span lang="ja">かねへん</span>).</p>
+                </div>
+              </article>
+
+              <!-- Card 2: YA -->
+              <article class="element-card card-ya">
+                <div class="element-card-top">
+                  <span class="element-big" lang="ja">矢</span>
+                  <div class="element-card-meta">
+                    <span class="element-title-tag">Komponen Kanan</span>
+                    <h3 lang="ja">や (Ya)</h3>
+                    <p class="element-meaning">Makna: <strong>Anak Panah (Arrow)</strong></p>
+                  </div>
+                </div>
+                <div class="element-card-body">
+                  <p>Bentuk bagian kanannya menyerupai <strong>anak panah (<span lang="ja">矢</span>)</strong> yang kokoh dan melesat cepat ke depan. Sangat mudah diingat sebagai kombinasi bentuk.</p>
+                </div>
+              </article>
+            </div>
+
+            <!-- Memory Hook Summary -->
+            <div class="memory-hook-box">
+              <div class="hook-icon"><svg><use href="#sparkle"/></svg></div>
+              <div class="hook-text">
+                <h4>Kalimat Kunci Pengingat:</h4>
+                <p>“<strong>Besi (鉄)</strong> adalah <strong>Logam (金)</strong> yang melesat kuat dan kokoh seperti <strong>Panah (矢)</strong>.”</p>
+                <small class="trivia-note">💡 <em>Fakta Menarik:</em> Perusahaan kereta api Jepang (JR) bahkan sengaja menggunakan logo resmi <strong lang="ja">鉃</strong> (金 + 矢) agar terhindar dari kesan "kehilangan uang" (<span lang="ja">金を失う</span>) dan melambangkan kereta api yang melaju secepat anak panah!</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide-bottom">
+            <span>Oboekata: Kombinasi Kanji 金 (kin) dan 矢 (ya)</span>
+            <span>04 / 07</span>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 5: JUKUGO ==================== -->
+        <section class="slide jukugo-slide" id="slide-5" aria-labelledby="jukugo-title" tabindex="-1" data-title="Jukugo" hidden inert>
+          <div class="section-heading">
+            <div>
+              <span class="section-kicker">Kosakata Majemuk</span>
+              <h2 class="section-title" id="jukugo-title">Jukugo (熟語) Kanji 鉄</h2>
+            </div>
+            <span class="heading-jp" lang="ja" aria-hidden="true">熟語</span>
+          </div>
+
+          <div class="jukugo-grid">
+            <!-- Jukugo 1 -->
+            <article class="jukugo-card">
+              <div class="jukugo-header">
+                <h3 class="jukugo-word" lang="ja"><ruby>鉄道<rt>てつどう</rt></ruby></h3>
+                <span class="jukugo-romaji">tetsudou</span>
+              </div>
+              <p class="jukugo-id">Kereta api / Jalur rel</p>
+              <div class="jukugo-parts">
+                <span class="part-pill" lang="ja">鉄 (besi)</span>
+                <span class="part-join">+</span>
+                <span class="part-pill" lang="ja">道 (jalan)</span>
+              </div>
+            </article>
+
+            <!-- Jukugo 2 -->
+            <article class="jukugo-card">
+              <div class="jukugo-header">
+                <h3 class="jukugo-word" lang="ja"><ruby>地下鉄<rt>ちかてつ</rt></ruby></h3>
+                <span class="jukugo-romaji">chikatetsu</span>
+              </div>
+              <p class="jukugo-id">Kereta bawah tanah / MRT</p>
+              <div class="jukugo-parts">
+                <span class="part-pill" lang="ja">地下 (bawah tanah)</span>
+                <span class="part-join">+</span>
+                <span class="part-pill" lang="ja">鉄 (kereta/besi)</span>
+              </div>
+            </article>
+
+            <!-- Jukugo 3 -->
+            <article class="jukugo-card">
+              <div class="jukugo-header">
+                <h3 class="jukugo-word" lang="ja"><ruby>鉄分<rt>てつぶん</rt></ruby></h3>
+                <span class="jukugo-romaji">tetsubun</span>
+              </div>
+              <p class="jukugo-id">Kandungan zat besi (nutrisi)</p>
+              <div class="jukugo-parts">
+                <span class="part-pill" lang="ja">鉄 (zat besi)</span>
+                <span class="part-join">+</span>
+                <span class="part-pill" lang="ja">分 (bagian/kadar)</span>
+              </div>
+            </article>
+
+            <!-- Jukugo 4 -->
+            <article class="jukugo-card">
+              <div class="jukugo-header">
+                <h3 class="jukugo-word" lang="ja"><ruby>私鉄<rt>してつ</rt></ruby></h3>
+                <span class="jukugo-romaji">shitetsu</span>
+              </div>
+              <p class="jukugo-id">Kereta swasta</p>
+              <div class="jukugo-parts">
+                <span class="part-pill" lang="ja">私 (privat/swasta)</span>
+                <span class="part-join">+</span>
+                <span class="part-pill" lang="ja">鉄 (kereta)</span>
+              </div>
+            </article>
+
+            <!-- Jukugo 5 -->
+            <article class="jukugo-card">
+              <div class="jukugo-header">
+                <h3 class="jukugo-word" lang="ja"><ruby>鉄板<rt>てっぱん</rt></ruby></h3>
+                <span class="jukugo-romaji">teppan</span>
+              </div>
+              <p class="jukugo-id">Pelat besi (juga slang: pasti/andal)</p>
+              <div class="jukugo-parts">
+                <span class="part-pill" lang="ja">鉄 (besi)</span>
+                <span class="part-join">+</span>
+                <span class="part-pill" lang="ja">板 (papan/pelat)</span>
+              </div>
+            </article>
+
+            <!-- Jukugo 6 -->
+            <article class="jukugo-card">
+              <div class="jukugo-header">
+                <h3 class="jukugo-word" lang="ja"><ruby>鋼鉄<rt>こうてつ</rt></ruby></h3>
+                <span class="jukugo-romaji">koutetsu</span>
+              </div>
+              <p class="jukugo-id">Baja (Steel)</p>
+              <div class="jukugo-parts">
+                <span class="part-pill" lang="ja">鋼 (baja)</span>
+                <span class="part-join">+</span>
+                <span class="part-pill" lang="ja">鉄 (besi)</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="slide-bottom">
+            <span>Contoh Jukugo Populer dengan Kanji 鉄</span>
+            <span>05 / 07</span>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 6: CONTOH KALIMAT ==================== -->
+        <section class="slide reibun-slide" id="slide-6" aria-labelledby="reibun-title" tabindex="-1" data-title="Contoh Kalimat" hidden inert>
+          <div class="section-heading">
+            <div>
+              <span class="section-kicker">Penerapan Praktis</span>
+              <h2 class="section-title" id="reibun-title">Contoh Kalimat (例文)</h2>
+            </div>
+            <span class="heading-jp" lang="ja" aria-hidden="true">例文と意味</span>
+          </div>
+
+          <div class="reibun-grid">
+            <!-- Kalimat 1 -->
+            <article class="reibun-card">
+              <div class="reibun-number">01</div>
+              <div class="reibun-content">
+                <p class="jp-sentence" lang="ja">
+                  <ruby>毎日<rt>まいにち</rt></ruby>、<mark class="kanji-highlight"><ruby>地下鉄<rt>ちかてつ</rt></ruby></mark>に<ruby>乗<rt>の</rt></ruby>って<ruby>大学<rt>だいがく</rt></ruby>へ<ruby>通<rt>かよ</rt></ruby>っています。
+                </p>
+                <p class="translation">
+                  "Setiap hari, saya naik <strong>kereta bawah tanah</strong> untuk pergi ke kampus."
+                </p>
+              </div>
+            </article>
+
+            <!-- Kalimat 2 -->
+            <article class="reibun-card">
+              <div class="reibun-number">02</div>
+              <div class="reibun-content">
+                <p class="jp-sentence" lang="ja">
+                  <ruby>日本<rt>にほん</rt></ruby>の<mark class="kanji-highlight"><ruby>鉄道<rt>てつどう</rt></ruby></mark>は<ruby>時間<rt>じかん</rt></ruby>がとても<ruby>正確<rt>せいかく</rt></ruby>です。
+                </p>
+                <p class="translation">
+                  "<strong>Kereta api</strong> di Jepang waktunya sangat tepat."
+                </p>
+              </div>
+            </article>
+
+            <!-- Kalimat 3 -->
+            <article class="reibun-card">
+              <div class="reibun-number">03</div>
+              <div class="reibun-content">
+                <p class="jp-sentence" lang="ja">
+                  ほうれん<ruby>草<rt>そう</rt></ruby>には<mark class="kanji-highlight"><ruby>鉄分<rt>てつぶん</rt></ruby></mark>がたくさん<ruby>含<rt>ふく</rt></ruby>まれています。
+                </p>
+                <p class="translation">
+                  "Bayam mengandung banyak kandungan <strong>zat besi</strong>."
+                </p>
+              </div>
+            </article>
+
+            <!-- Kalimat 4 -->
+            <article class="reibun-card">
+              <div class="reibun-number">04</div>
+              <div class="reibun-content">
+                <p class="jp-sentence" lang="ja">
+                  <ruby>彼<rt>かれ</rt></ruby>は<ruby>意志<rt>いし</rt></ruby>が<mark class="kanji-highlight"><ruby>鉄<rt>てつ</rt></ruby></mark>のように<ruby>強<rt>つよ</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>です。
+                </p>
+                <p class="translation">
+                  "Dia adalah orang yang memiliki tekad sekuat <strong>besi</strong>."
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="slide-bottom">
+            <span>Kalimat Kontekstual & Terjemahan Bahasa Indonesia</span>
+            <span>06 / 07</span>
+          </div>
+        </section>
+
+        <!-- ==================== SLIDE 7: TERIMA KASIH ==================== -->
+        <section class="slide closing-slide" id="slide-7" aria-labelledby="closing-title" tabindex="-1" data-title="Penutup" hidden inert>
+          <div class="closing-wrap">
+            <div class="closing-badge" lang="ja">ありがとうございました</div>
+            <h2 class="closing-title" id="closing-title">Terima Kasih</h2>
+            <p class="closing-lead">Semoga materi Kanji <strong>鉄</strong> (TETSU) ini bermanfaat dalam pembelajaran bahasa Jepang.</p>
+
+            <div class="closing-summary-box">
+              <div class="summary-item">
+                <span class="sum-label">Kanji:</span>
+                <strong lang="ja">鉄（てつ）</strong>
+              </div>
+              <div class="summary-sep">•</div>
+              <div class="summary-item">
+                <span class="sum-label">Bushu:</span>
+                <strong lang="ja">釒(かねへん)</strong>
+              </div>
+              <div class="summary-sep">•</div>
+              <div class="summary-item">
+                <span class="sum-label">Kakusuu:</span>
+                <strong>13 画</strong>
+              </div>
+              <div class="summary-sep">•</div>
+              <div class="summary-item">
+                <span class="sum-label">Oboekata:</span>
+                <strong lang="ja">金 ＋ 矢</strong>
+              </div>
+            </div>
+
+            <div class="closing-presenter-card">
+              <div class="presenter-avatar large">FS</div>
+              <div class="presenter-card-info">
+                <h3>Faiz Syihab</h3>
+                <p>NIM 125241046 <span class="signature-divider">/</span> Kelas A</p>
+              </div>
+            </div>
+
+            <button class="restart-button" data-go="0">
+              <svg><use href="#arrow-left"/></svg>
+              <span>Kembali ke Awal</span>
+            </button>
+          </div>
+
+          <div class="slide-bottom">
+            <span lang="ja">漢字の学習 — 鉄 (TETSU)</span>
+            <span>07 / 07</span>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <!-- Slide Navigation Footer -->
+    <footer class="deck-controls" aria-label="Kontrol navigasi presentasi">
+      <div class="keyboard-hint">
+        <span class="key-mini">←</span>
+        <span class="key-mini">→</span>
+        <span>atau <span class="key-mini">F</span> fullscreen</span>
+      </div>
+
+      <nav class="slide-nav" aria-label="Pilih nomor slide">
+        <button data-go="0" class="current" aria-current="step" aria-label="Slide 1: Pembuka">
+          <span class="nav-number">01</span>
+          <span class="nav-title">Pembuka</span>
+        </button>
+        <button data-go="1" aria-label="Slide 2: Bushu & Yomikata">
+          <span class="nav-number">02</span>
+          <span class="nav-title">Bushu & Yomi</span>
+        </button>
+        <button data-go="2" aria-label="Slide 3: Kakusuu & Animasi">
+          <span class="nav-number">03</span>
+          <span class="nav-title">Kakusuu</span>
+        </button>
+        <button data-go="3" aria-label="Slide 4: Oboekata">
+          <span class="nav-number">04</span>
+          <span class="nav-title">Oboekata</span>
+        </button>
+        <button data-go="4" aria-label="Slide 5: Jukugo">
+          <span class="nav-number">05</span>
+          <span class="nav-title">Jukugo</span>
+        </button>
+        <button data-go="5" aria-label="Slide 6: Contoh Kalimat">
+          <span class="nav-number">06</span>
+          <span class="nav-title">Contoh Kalimat</span>
+        </button>
+        <button data-go="6" aria-label="Slide 7: Penutup">
+          <span class="nav-number">07</span>
+          <span class="nav-title">Penutup</span>
+        </button>
+      </nav>
+
+      <div class="arrow-controls">
+        <button class="icon-button previous" aria-label="Slide sebelumnya" disabled>
+          <svg><use href="#arrow-left"/></svg>
+        </button>
+        <button class="icon-button next" aria-label="Slide berikutnya">
+          <svg><use href="#arrow-right"/></svg>
+        </button>
+      </div>
+    </footer>
+  </div>
+
+  <div class="sr-only" id="slide-announcer" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Fallback noscript -->
+  <noscript>
+    <style>
+      .slide { display: block !important; position: relative !important; transform: none !important; width: 100% !important; height: auto !important; margin-bottom: 24px; }
+      .stage, .slides { height: auto !important; aspect-ratio: auto !important; width: 100% !important; overflow: visible !important; }
+      .deck-controls, .start-button { display: none !important; }
+      .app { padding: 20px; }
+      .slide[hidden] { display: block !important; }
+    </style>
+    <p style="padding: 16px; background: #fff3cd; border-radius: 8px;">JavaScript nonaktif. Semua slide ditampilkan secara berurutan.</p>
+  </noscript>
+</body>
+</html>

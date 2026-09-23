@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3A608F"/>
+      <stop offset="100%" stop-color="#1F3550"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="22" fill="url(#metal)"/>
+  <rect x="5" y="5" width="90" height="90" rx="17" fill="none" stroke="#D4A373" stroke-width="3" opacity="0.6"/>
+  <text x="50" y="68" font-family="'Huninn', 'Yu Gothic', sans-serif" font-size="56" font-weight="bold" fill="#FFFFFF" text-anchor="middle">鉄</text>
+</svg>
