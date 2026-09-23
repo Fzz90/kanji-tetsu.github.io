@@ -788,7 +788,7 @@ p {
 .kakusuu-hero-metric {
   background: #fff;
   border-radius: 18px;
-  padding: 24px 28px;
+  padding: 28px 32px;
   display: flex;
   align-items: center;
   gap: 24px;
@@ -825,25 +825,6 @@ p {
 .metric-text p {
   font-size: 16px;
   color: var(--muted);
-}
-
-.kakusuu-composition {
-  padding: 24px 6px 10px;
-}
-
-.composition-text {
-  font-size: 38px;
-  font-weight: 600;
-  color: var(--steel-dark);
-  letter-spacing: 0.5px;
-  display: inline-flex;
-  align-items: baseline;
-  gap: 12px;
-}
-
-.composition-text [lang="ja"] {
-  font-size: 46px;
-  color: var(--steel);
 }
 
 
