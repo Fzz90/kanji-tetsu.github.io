@@ -917,7 +917,8 @@ p {
 .element-card {
   background: #fff;
   border-radius: 18px;
-  padding: 26px 28px;
+  padding: 38px 36px;
+  min-height: 320px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
   display: flex;
   flex-direction: column;
@@ -934,88 +935,42 @@ p {
 .element-card-top {
   display: flex;
   align-items: center;
-  gap: 20px;
-  margin-bottom: 14px;
+  gap: 24px;
+  margin-bottom: 20px;
 }
 
 .element-big {
-  font-size: 72px;
+  font-size: 88px;
   font-weight: 700;
   line-height: 1;
   color: var(--steel-dark);
 }
 
 .element-title-tag {
-  font-size: 13px;
+  font-size: 13.5px;
   font-weight: 600;
   color: var(--muted);
   text-transform: uppercase;
 }
 
 .element-card-meta h3 {
-  font-size: 26px;
+  font-size: 30px;
   color: var(--ink);
   font-weight: 700;
 }
 
 .element-meaning {
-  font-size: 15px;
+  font-size: 17px;
   color: var(--steel);
-  margin-top: 2px;
+  margin-top: 4px;
 }
 
 .element-card-body p {
-  font-size: 16.5px;
+  font-size: 18px;
   color: var(--muted);
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
-.memory-hook-box {
-  background: linear-gradient(135deg, #FFFDF8, var(--gold-light));
-  border: 1px solid var(--gold-border);
-  border-radius: 16px;
-  padding: 20px 24px;
-  display: flex;
-  gap: 18px;
-  align-items: flex-start;
-}
-
-.hook-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: var(--gold);
-  color: #fff;
-  display: grid;
-  place-items: center;
-  flex-shrink: 0;
-}
-
-.hook-icon svg {
-  width: 22px;
-  height: 22px;
-  fill: currentColor;
-}
-
-.hook-text h4 {
-  font-size: 17px;
-  color: #8C5B17;
-  font-weight: 700;
-  margin-bottom: 4px;
-}
-
-.hook-text p {
-  font-size: 18.5px;
-  color: var(--ink);
-  margin-bottom: 8px;
-}
-
-.trivia-note {
-  display: block;
-  font-size: 14px;
-  color: var(--muted);
-  line-height: 1.45;
-}
 
 /* ==================== SLIDE 5: JUKUGO ==================== */
 .jukugo-grid {
