@@ -863,13 +863,7 @@ p {
 .division-card h4 {
   font-size: 22px;
   color: var(--ink);
-  margin-bottom: 6px;
-}
-
-.division-card p {
-  font-size: 14.5px;
-  color: var(--muted);
-  line-height: 1.45;
+  margin-bottom: 0;
 }
 
 
