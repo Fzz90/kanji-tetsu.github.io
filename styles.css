@@ -428,31 +428,6 @@ p {
   opacity: 0.9;
 }
 
-.proverb-meaning {
-  position: absolute;
-  left: 48px;
-  top: 56px;
-  max-width: 260px;
-  background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(8px);
-  padding: 16px 18px;
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.7);
-}
-
-.proverb-meaning em {
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--steel-dark);
-  display: block;
-  margin-bottom: 6px;
-}
-
-.proverb-meaning p {
-  font-size: 13.5px;
-  color: var(--muted);
-  line-height: 1.45;
-}
 
 .iron-disc-wrap {
   position: absolute;
@@ -897,28 +872,6 @@ p {
   line-height: 1.45;
 }
 
-.stroke-current-box {
-  background: var(--gold-light);
-  border: 1px solid var(--gold-border);
-  border-radius: 14px;
-  padding: 16px 20px;
-  margin-top: auto;
-}
-
-.detail-kicker {
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--gold);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  display: block;
-  margin-bottom: 4px;
-}
-
-.stroke-current-box p {
-  font-size: 16px;
-  color: var(--ink);
-}
 
 /* ==================== SLIDE 4: OBOEKATA ==================== */
 .oboekata-container {
