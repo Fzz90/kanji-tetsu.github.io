@@ -364,24 +364,11 @@ p {
 .presenter {
   display: flex;
   align-items: center;
-  gap: 16px;
   background: #fff;
-  padding: 14px 20px;
+  padding: 14px 24px;
   border-radius: 14px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
   width: fit-content;
-}
-
-.presenter-avatar {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--steel), var(--steel-dark));
-  color: #fff;
-  display: grid;
-  place-items: center;
-  font-weight: 700;
-  font-size: 16px;
 }
 
 .presenter-info strong {
@@ -1181,33 +1168,27 @@ p {
 
 .closing-presenter-card {
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 18px;
   background: #fff;
   border: 1px solid var(--steel-border);
-  padding: 16px 28px;
+  padding: 16px 36px;
   border-radius: 16px;
   box-shadow: 0 8px 24px rgba(20, 47, 69, 0.06);
   margin-bottom: 28px;
-}
-
-.presenter-avatar.large {
-  width: 52px;
-  height: 52px;
-  font-size: 19px;
 }
 
 .presenter-card-info h3 {
   font-size: 22px;
   color: var(--ink);
   font-weight: 700;
-  text-align: left;
+  text-align: center;
 }
 
 .presenter-card-info p {
   font-size: 16px;
   color: var(--muted);
-  text-align: left;
+  text-align: center;
 }
 
 .restart-button {
